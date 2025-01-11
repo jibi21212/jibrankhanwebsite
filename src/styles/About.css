@@ -1,0 +1,93 @@
+/* src/styles/About.css */
+.about-section {
+    padding: 4rem 2rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #ffffff;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #64ffda;
+  }
+  
+  .about-grid {
+    display: flex;
+    gap: 2rem;
+    align-items: start;
+  }
+  
+  .about-text {
+    flex: 1;
+  }
+  
+  .introduction {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    color: #e6f1ff;
+  }
+  
+  .about-details {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .interests-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .interest-card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .interest-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .interest-card h4 {
+    color: #64ffda;
+    margin-bottom: 1rem;
+  }
+  
+  h3 {
+    color: #64ffda;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .career-goals {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+  }
+  
+  @media (max-width: 768px) {
+    .about-grid {
+      flex-direction: column;
+    }
+  
+    .interests-grid {
+      grid-template-columns: 1fr;
+    }
+  }

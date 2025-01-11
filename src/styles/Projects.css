@@ -1,0 +1,124 @@
+/* src/styles/Projects.css */
+.projects-section {
+    padding: 4rem 2rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .projects-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #ffffff;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .project-card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+  
+  .project-header h3 {
+    color: #64ffda;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .github-link {
+    color: #64ffda;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #64ffda;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  .github-link:hover {
+    background: rgba(100, 255, 218, 0.1);
+  }
+  
+  .technologies {
+    color: #8892b0;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .project-points {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .project-points li {
+    margin-bottom: 0.8rem;
+    padding-left: 1.5rem;
+    position: relative;
+  }
+  
+  .project-points li::before {
+    content: "▹";
+    position: absolute;
+    left: 0;
+    color: #64ffda;
+  }
+  
+  @media (max-width: 768px) {
+    .projects-section {
+      padding: 3rem 1rem;
+    }
+  
+    .projects-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .project-details {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .current-features,
+  .future-plans {
+    text-align: left;
+  }
+  
+  .future-plans {
+    background: rgba(100, 255, 218, 0.05);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid rgba(100, 255, 218, 0.1);
+  }
+  
+  .future-plans h4 {
+    color: #64ffda;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  .current-features h4 {
+    color: #64ffda;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
