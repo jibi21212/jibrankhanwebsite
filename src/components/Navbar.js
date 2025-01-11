@@ -54,8 +54,8 @@ function Navbar() {
     { 
       id: 'resume', 
       label: 'Resume',
-      isExternal: true, // Add this flag for external links
-      href: '/files/winterResume2025.pdf' // Add the path to your resume
+      isExternal: true,
+      href: '/files/MJK_winter2025_resume.pdf'
     }
   ];
 
