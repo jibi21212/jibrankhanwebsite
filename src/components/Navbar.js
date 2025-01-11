@@ -55,7 +55,7 @@ function Navbar() {
       id: 'resume', 
       label: 'Resume',
       isExternal: true,
-      href: '/files/MJK_winter2025_resume.pdf'
+      href: '/jibrankhanwebsite/files/MJK_winter2025_resume.pdf'
     }
   ];
 
@@ -69,15 +69,13 @@ function Navbar() {
               <li key={item.id}>
                 {item.isExternal ? (
                   <a
-                    href={item.href}
-                    className="nav-resume-link"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      handleClick(item.id, item.isExternal, item.href);
-                    }}
-                  >
-                    {item.label}
-                  </a>
+                  href={item.href}
+                  className="nav-resume-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {item.label}
+                </a>
                 ) : (
                   <a
                     href={`#${item.id}`}
