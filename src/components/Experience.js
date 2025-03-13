@@ -19,10 +19,10 @@ function Experience() {
   ];
 
   const technicalSkills = {
-    "Languages": ["Python", "Java", "C++", "JavaScript", "SQL", "Kotlin", "Clojure", 'R'],
-    "Frameworks": ["Django", "React.js", "JAX-RS", 'Node.js', 'JDBC'],
-    "Libraries": ["Pandas", "NumPy", "Matplotlib", "Seaborn", "BeautifulSoup"],
-    "Tools/Technologies": ["PgAdmin", "Maven", "WebSocket", "GlassFish"]
+    "Languages": ["Python", "Java", "C++", "JavaScript", "SQL", "Kotlin", "Clojure", 'R', 'Dart'],
+    "Frameworks": ["Django", "Flask", "Jakarta EE", 'JDBC', 'Flutter', 'JUnit'],
+    "Libraries": ["Pandas", "NumPy", "Matplotlib", "Seaborn", "BeautifulSoup", "React.js", "ggplot2"],
+    "Tools/Technologies": ["PgAdmin", "Maven", "WebSocket", "GlassFish", "SQLite", "Firebase", "S3", "ANTLR"]
   };
 
   return (
