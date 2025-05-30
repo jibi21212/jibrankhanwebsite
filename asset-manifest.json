@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/jibrankhanwebsite/static/css/main.8e8f0e63.css",
-    "main.js": "/jibrankhanwebsite/static/js/main.faa12efb.js",
+    "main.js": "/jibrankhanwebsite/static/js/main.ddd3a103.js",
     "index.html": "/jibrankhanwebsite/index.html",
     "main.8e8f0e63.css.map": "/jibrankhanwebsite/static/css/main.8e8f0e63.css.map",
-    "main.faa12efb.js.map": "/jibrankhanwebsite/static/js/main.faa12efb.js.map"
+    "main.ddd3a103.js.map": "/jibrankhanwebsite/static/js/main.ddd3a103.js.map"
   },
   "entrypoints": [
     "static/css/main.8e8f0e63.css",
-    "static/js/main.faa12efb.js"
+    "static/js/main.ddd3a103.js"
   ]
 }
