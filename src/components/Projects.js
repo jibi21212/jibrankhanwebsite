@@ -56,27 +56,18 @@ function Projects() {
       showFuturePlans: false
     },
     {
-      title:"Fresh Farmily",
-      github:"https://github.com/jibi21212/freshfarmily",
-      period:"Feb-Mar 2025",
-      technologies:"Flutter, Dart",
+      title: "Stock Market Prediction",
+      github: "https://github.com/SajidAnas/Stock-Market-Prediction",
+      period: "May 2025 - Present",
+      technologies: "tensorflow, scikit-learn, yfinance, streamlit, panadas, numpy, matplotlib",
       points: [
-        "Contributing to the ongoing development of FreshFarmily, a mobile application built with Flutter and Dart to connect farmers and consumers, aiming to reduce food waste and optimize the supply chain."
-      ],
+        "Developed a predictive analytics tool to forecast stock market prices by leveraging historical data fetched dynamically using the yfinance library.",
+        "Implemented an LSTM (Long Short-Term Memory) neural network using TensorFlow and Keras to model temporal dependencies in stock price data, processing closing prices to predict future trends.",
+        "Designed an interactive web application prototype with Streamlit, enabling users to input stock symbols, trigger model training, and visualize actual versus predicted stock prices with Matplotlib.",
+        "Incorporated data preprocessing techniques such as MinMax scaling (scikit-learn) for optimizing model input and evaluated prediction accuracy using Root Mean Squared Error (RMSE).",
+        "This project is currently a functional prototype demonstrating core prediction and visualization capabilities." 
+  ],
       showFuturePlans: false
-    },
-    {
-      title: "Jay - My data handling programming language",
-      github: "https://github.com/jibi21212/Jay_DataHandling_Runtime",
-      period: "Jan-present 2025",
-      technologies: "ANTLR, JUnit, Kotlin",
-      points: [
-        "Inspired by my compilers course, as I learn more about lexers, parsers, interpretors and compilers, I come by and add to this",
-        "Jay is a data handling language designed to simplify and streamline data transformations",
-        "1. Smart Bundles with type aware data grouping, element wise operations, flexible type matching and conversion ",
-        "2. Intuitive Type Conversion with built in conversion between primitive types, configurable conversion flags, safe handling of complex transformations ",
-        "3. Procedure Pipelines which allow function composition using the '>>' operator, used to create custom data transformation or conversion pipelines."
-      ]
     }
   ];
 

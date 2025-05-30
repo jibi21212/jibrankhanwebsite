@@ -41,7 +41,7 @@ function About() {
             <div className="career-goals">
               <h3>Current Focus</h3>
               <p>
-                Actively seeking internship and part-time opportunities for Summer 2025, where I can both apply and expand my technical skills in real-world scenarios. Particularly interested in roles of Data Science & Software development.
+                Actively seeking internship and part-time opportunities for Fall 2025, where I can both apply and expand my technical skills in real-world scenarios. Particularly interested in roles of Data Science & Software development.
               </p>
             </div>
           </div>
